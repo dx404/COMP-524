@@ -1,0 +1,4 @@
+Fails to produce errors for single-line comments not properly closed
+All functionality static
+Lines too long
+Method follows DFA with nested loops instead of outer loop

@@ -1,0 +1,8 @@
+id(potato)
+lparen(()
+id(baked)
+rparen())
+id(test)
+lparen(()
+rparen())
+eof($$)

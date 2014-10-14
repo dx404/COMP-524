@@ -1,0 +1,8 @@
+id(a)
+increment(++)
+id(b)
+decrement(--)
+id(c)
+increment(++)
+decrement(--)
+eof($$)

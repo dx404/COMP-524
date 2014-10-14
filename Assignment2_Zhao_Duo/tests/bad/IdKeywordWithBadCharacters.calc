@@ -1,0 +1,46 @@
+%a %b2 %cd %ef23 %gh24i %read %jkl %write %mno65p %read %test
+%a
+%b2
+%cd
+%ef23
+%gh24i
+%read
+%jkl
+%write
+%mno65p
+%read
+%test
+a% b%2 c%d e%f23 g%h24i r%ead j%kl w%rite m%no65p r%ead t%est
+a%
+b%2
+c%d
+e%f23
+g%h24i
+r%ead
+j%kl
+w%rite
+m%no65p
+r%ead
+t%est
+b2% cd% ef%23 gh%24i re%ad jk%l wr%ite mn%o65p re%ad te%st
+b2%
+cd%
+ef%23
+gh%24i
+re%ad
+jk%l
+wr%ite
+mn%o65p
+re%ad
+te%st
+b2% cd% ef23% gh24i% read% jkl% write% mno65p% read% test%
+b2%
+cd%
+ef23%
+gh24i%
+read%
+jkl%
+write%
+mno65p%
+read%
+test%

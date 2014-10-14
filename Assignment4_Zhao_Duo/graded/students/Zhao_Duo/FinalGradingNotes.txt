@@ -1,0 +1,11 @@
+Assignment Score: 100
+Bonus: +4 Clear and specific error messages
+Conformance: -0 Parser is based on a grammar including non-BNF constructs
+Conformance: -1 Prints extraneous debugging output
+Conformance: -2 System.exit() used outside of main()
+Functionality: -1 Does not accept empty program
+Total Bonus: 4 out of 0
+Total Conformance: 27 out of 30
+Total Design: 20 out of 20
+Total Functionality: 39 out of 40
+Total Style: 10 out of 10

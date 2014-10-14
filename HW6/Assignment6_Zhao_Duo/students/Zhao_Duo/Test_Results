@@ -1,0 +1,51 @@
+PROBLEM tests/all_on_board.invalid:1: All in left corner, vertical, ship 0 too far left
+PROBLEM tests/all_on_board.invalid:2: All in left corner, vertical, ship 1 too far left
+PROBLEM tests/all_on_board.invalid:3: All in left corner, vertical, ship 2 too far left
+PROBLEM tests/all_on_board.invalid:4: All in left corner, vertical, ship 3 too far left
+PROBLEM tests/all_on_board.invalid:5: All in left corner, vertical, ship 4 too far left
+PROBLEM tests/all_on_board.invalid:16: All in left corner, horizontal, ship 0 too high
+PROBLEM tests/all_on_board.invalid:17: All in left corner, horizontal, ship 1 too high
+PROBLEM tests/all_on_board.invalid:18: All in left corner, horizontal, ship 2 too high
+PROBLEM tests/all_on_board.invalid:19: All in left corner, horizontal, ship 3 too high
+PROBLEM tests/all_on_board.invalid:20: All in left corner, horizontal, ship 4 too high
+PROBLEM tests/all_on_board.invalid:21: Corresponding columns, vertical, ship 0 too far left
+PROBLEM tests/all_on_board.invalid:22: Corresponding columns, vertical, ship 1 too far left
+PROBLEM tests/all_on_board.invalid:23: Corresponding columns, vertical, ship 2 too far left
+PROBLEM tests/all_on_board.invalid:24: Corresponding columns, vertical, ship 3 too far left
+PROBLEM tests/all_on_board.invalid:25: Corresponding columns, vertical, ship 4 too far left
+PROBLEM tests/all_on_board.invalid:36: Corresponding rows, horizontal, ship 0 too high
+PROBLEM tests/all_on_board.invalid:37: Corresponding rows, horizontal, ship 1 too high
+PROBLEM tests/all_on_board.invalid:38: Corresponding rows, horizontal, ship 2 too high
+PROBLEM tests/all_on_board.invalid:39: Corresponding rows, horizontal, ship 3 too high
+PROBLEM tests/all_on_board.invalid:40: Corresponding rows, horizontal, ship 4 too high
+PROBLEM tests/all_on_board.invalid:46: Bottom right corner, horizontal, ship 0 too low
+PROBLEM tests/all_on_board.invalid:47: Bottom right corner, horizontal, ship 1 too low
+PROBLEM tests/all_on_board.invalid:48: Bottom right corner, horizontal, ship 2 too low
+PROBLEM tests/all_on_board.invalid:49: Bottom right corner, horizontal, ship 3 too low
+PROBLEM tests/all_on_board.invalid:50: Bottom right corner, horizontal, ship 4 too low
+PROBLEM tests/all_on_board.invalid:51: Bottom right corner, vertical, ship 0 too far right
+PROBLEM tests/all_on_board.invalid:52: Bottom right corner, vertical, ship 1 too far right
+PROBLEM tests/all_on_board.invalid:53: Bottom right corner, vertical, ship 2 too far right
+PROBLEM tests/all_on_board.invalid:54: Bottom right corner, vertical, ship 3 too far right
+PROBLEM tests/all_on_board.invalid:55: Bottom right corner, vertical, ship 4 too far right
+PROBLEM tests/all_on_board.invalid:66: Bottom right corner, horizontal, separate rows, ship 0 too low
+PROBLEM tests/all_on_board.invalid:67: Bottom right corner, horizontal, separate rows, ship 1 too low
+PROBLEM tests/all_on_board.invalid:68: Bottom right corner, horizontal, separate rows, ship 2 too low
+PROBLEM tests/all_on_board.invalid:69: Bottom right corner, horizontal, separate rows, ship 3 too low
+PROBLEM tests/all_on_board.invalid:70: Bottom right corner, horizontal, separate rows, ship 4 too low
+PROBLEM tests/all_on_board.invalid:71: Bottom right corner, vertical, separate columns, ship 0 too far right
+PROBLEM tests/all_on_board.invalid:72: Bottom right corner, vertical, separate columns, ship 1 too far right
+PROBLEM tests/all_on_board.invalid:73: Bottom right corner, vertical, separate columns, ship 2 too far right
+PROBLEM tests/all_on_board.invalid:74: Bottom right corner, vertical, separate columns, ship 3 too far right
+PROBLEM tests/all_on_board.invalid:75: Bottom right corner, vertical, separate columns, ship 4 too far right
+tests/all_on_board.invalid had 40 errors.
+tests/all_on_board.valid had 0 errors.
+tests/conflict_free.invalid had 0 errors.
+tests/conflict_free.valid had 0 errors.
+tests/database.invalid had 0 errors.
+tests/database.valid had 0 errors.
+tests/hit.invalid had 0 errors.
+tests/hit.valid had 0 errors.
+tests/valid.invalid had 0 errors.
+tests/valid.valid had 0 errors.
+Total errors: 40

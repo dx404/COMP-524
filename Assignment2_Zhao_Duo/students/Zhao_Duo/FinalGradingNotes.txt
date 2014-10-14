@@ -1,0 +1,10 @@
+Assignment Score: 79
+Conformance: -5 Method follows DFA with nested loops instead of outer loop
+Design: -15 All functionality static
+Functionality: -0 Fails to produce errors for single-line comments not properly closed
+Style: -1 Some lines are too long
+Total Bonus: 0 out of 0
+Total Conformance: 25 out of 30
+Total Design: 5 out of 20
+Total Functionality: 40 out of 40
+Total Style: 9 out of 10

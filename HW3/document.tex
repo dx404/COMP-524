@@ -1,0 +1,128 @@
+\documentclass[a4paper, 11pt]{article}
+\usepackage{fullpage}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{color}
+\usepackage{multicol}
+\usepackage{listings}
+\lstset{
+language=C++,
+language=java,
+numbers=left
+}
+
+\begin{document}
+\centerline{\sc \large COMP524 Spring 2012 HW-3}
+\vspace{.5pc}
+\centerline{\sc Student Name: Duo Zhao  PID: 720090360}
+\vspace{2pc}
+
+\section{3.1}
+	Indicate the binding time (when the language is designed, when the program is
+linked, when the program begins execution, etc.) for each of the following
+decisions in your favorite programming language and implementation. Explain any
+answers you think are open to interpretation.
+\subsection{a} The number of built-in functions (math, type queries, etc.)
+
+In C, It's generally defined at the language design time. However, it may be
+enlarged during the implementation time. e.g. sizeof() is a built-in function in
+C, which is essentially an unary operator. Most Other functions are not built
+into language itself, but are provided by standard library, such as <stdio.h>. 
+Some compliers may support these standard library built-in functions.
+
+\subsection{b} The variable declaration that corresponds to a particular variable reference (use)
+
+In C, it's at the compile time, since C uses the static scope. 
+
+\subsection{c}The maximum length allowed for a constant (literal) character string
+
+In C, the actual number is supposed to set at the language implementation time,
+though at the design time, a variable indicating the maximum length may be
+introduced. 
+
+\subsection{d}The address of a particular library routine
+
+In C, it's generally at the link time, especially for the static library. For
+some dynamic-link library, the bind time may be at the load time or
+run-time(DLL)
+
+\subsection{e}The total amount of space occupied by program code and data
+
+In C, it's at the run time. Since the data may include input, which can only be
+definitely determined at the run time.
+
+\pagebreak
+
+\section{3.4}
+Give three concrete examples drawn from programming languages with which you are
+familiar in which a variable is live but not in scope.
+
+\subsection{1, C++}
+\begin{lstlisting}
+#include<iostream>
+using namespace std;
+int i = 1;
+int main(){
+  int i = 2;		//local variable i is defined
+  
+  // output: i = 2, the outer i is shadowed, albeit alive
+  cout<<"i = "<<i<<endl;  
+  
+  //output: i = 1, the scope must be explicit
+  cout<<"::i = "<<::i<<endl; 
+  
+  return 0;	
+}
+\end{lstlisting}
+
+Same scenario in Java, 
+\subsection{2, Java}
+\begin{lstlisting}
+public class{
+	public static int i = 1;
+	public static void main(String[] args){
+		int i = 2;
+	}
+}
+\end{lstlisting}
+
+\subsection{3, Another example in Java}
+\begin{lstlisting}
+class ABC{
+	private int i;
+	public ABC(){
+		i = 0;
+	}
+	public void setField(int i){
+		this.i = i;
+	}
+	public static void main(String[] args){
+		ABC abc = new ABC();
+		abc.setField(1);
+	}
+}
+\end{lstlisting}
+
+The \textit{this.i = i} assignment statement. The outer field i is shadowed by
+the variable passed by the parameter list. a reference this.i must be used to
+indicate the object field rather than the passed parameter. 
+
+\pagebreak
+
+\section{3.7}
+
+\subsection{a}
+The problem arised from Brad's careless use of L = reverse(L), which resulted in
+memory leak without garbage collection. Brad create a list of new nodes without
+releasing the the resources that the old list occupies. Therefore, after a loop
+of operations, the memory will be exhausted.
+
+\subsection{b}
+
+This time, Brad deleted the old list successfully and release the old
+list nodes. However, the data that the new and old list share was also released
+as well. Therefore, the data pointer in the new list node will be a dangling
+reference, which refers to unkown memory and the result is unpredicatable.
+
+\end{document}

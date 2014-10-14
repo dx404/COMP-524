@@ -1,0 +1,3 @@
+read fahrenheit
+
+write a

@@ -1,0 +1,4 @@
+Failed test tests/good/EmptyProgram!
+Error from parsing Statement: 
+ Token id, read or write expected as first token of Stmt, but EOF() encountered
+Failed 1 out of 91 tests.

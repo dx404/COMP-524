@@ -1,0 +1,10 @@
+Assignment Score: 91
+Part 2: -4 Forgot to check that starting row and column are on the board
+Part 7: +10 Did extra credit
+Total Part 1: 5 out of 5
+Total Part 2: 6 out of 10
+Total Part 3: 25 out of 25
+Total Part 4: 10 out of 10
+Total Part 5: 10 out of 10
+Total Part 6: 25 out of 25
+Total Part 7: 10 out of 0

@@ -1,0 +1,5 @@
+id(a)
+assign(:=)
+id(b)
+assign(:=)
+eof($$)
